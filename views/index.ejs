@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiten's blog</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <%- include("partials/header") %>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Welcome to my blog!</h2>
+            <h5>Posted on Jan 18, 2024</h5>
+            <div class="fakeimg" style="height:200px;">Hi, Thank you for visiting my blog.<br>
+            Here you can save articles that you have always wanted to add by pressing the add button below.<br><br><br> 
+            ⚠️Note: Posts get deleted if the website is refreshed.</div>
+          </div>
+          <!-- <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+          </div> -->
+          
+        </div>
+
+        <%- include("partials/rightcolumn") %>
+      </div>
+      <button class="button1">Add a post: ➕</button>
+      <%- include("partials/footer") %>
+      
+</body>
+</html>
